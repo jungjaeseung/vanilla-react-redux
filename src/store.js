@@ -1,9 +1,4 @@
-import {
-  configureStore,
-  createAction,
-  createReducer,
-  createSlice,
-} from "@reduxjs/toolkit";
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 
 const toDos = createSlice({
   name: "toDosReducer",
